@@ -1,0 +1,37 @@
+.content {
+    text-align: center;
+    margin: 10%;
+    color: white;
+}
+
+.content .content-header {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 60px;
+    margin-bottom: 50px;
+}
+
+.content .content-description {
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.content .content-buttons {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content .content-buttons button {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+.content .content-buttons button .material-symbols-outlined {
+    background-color: transparent;
+    vertical-align: middle;
+}

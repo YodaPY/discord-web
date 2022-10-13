@@ -1,0 +1,37 @@
+/* Google's Montserrat font available in weights 400, 600, 800 */
+@import url(
+    'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap'
+);
+
+/* Import all stylesheets */
+@import url("./header.css");
+@import url("./content.css");
+@import url("./footer.css");
+
+/* Utility Stylesheets */
+@import url("./utilities/discord-utility.css");
+
+:root {
+    --theme-color: #404EED;
+    --white: white;
+    --black: #2c2f33;
+    --blurple: #404EED;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--theme-color);
+}
+
+a {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--white);
+    text-decoration: none;
+}

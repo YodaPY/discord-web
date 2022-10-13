@@ -1,0 +1,43 @@
+.discord-button {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    padding: 10px 18px;
+}
+
+.discord-button:hover {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.discord-bright-button {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.discord-bright-button:hover {
+    color: var(--blurple);
+}
+
+.discord-dark-button {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.discord-dark-button:hover {
+    opacity: 0.8;
+}
+
+.discord-blurple-button {
+    background-color: var(--blurple);
+    color: var(--white);
+}
+
+.discord-blurple-button:hover {
+    opacity: 0.8;
+}
+
+.discord-logo {
+    width: 120px;
+    cursor: pointer;
+}
