@@ -12,7 +12,6 @@
 @import url("./utilities/discord-utility.css");
 
 :root {
-    --theme-color: #404EED;
     --white: white;
     --black: #2c2f33;
     --blurple: #404EED;
@@ -26,7 +25,7 @@
 }
 
 body {
-    background-color: var(--theme-color);
+    background-color: var(--blurple);
 }
 
 a {
